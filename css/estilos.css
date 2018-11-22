@@ -67,3 +67,7 @@
 .bg-orange{
 	background-color: #f15822;
 }
+
+body{
+	overflow-x: hidden;
+}

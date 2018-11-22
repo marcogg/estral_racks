@@ -2,8 +2,8 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "automotriz_ddc@hotmail.com";
-    $email_subject = "Nueva entrada en formulario";
+    $email_to = "marcogarcia.gon@gmail.com";
+    $email_subject = "Nueva entrada en formulario desde Sitio Web";
  
     function died($error) {
         // your error code can go here
@@ -81,9 +81,74 @@ $headers = 'From: '.$email_from."\r\n".
 ?>
  
 <!-- include your own success html here -->
- 
-Thank you for contacting us. We will be in touch with you very soon.
- 
+
+
+
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Estral Solutions - Anaqueles</title>
+    <!--Estilos custom-->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <!--FAVICON-->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.jpg"/>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.jpg"/>
+    <!--Verificacion google-->
+    <meta name="google-site-verification"
+    content="s7uwviYrNa4DBLLMTfo-UyQD0jxOkDrWke9ET3SlWbw" />
+<!--Fin verifiacion google-->
+    <!--GOOGLE RECAPTCHA-->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      
+      <div class="text-center">
+        <br>
+        <br>
+        <img src="img/logo_estral.png" width="200">
+        <br>
+        <br>
+        <h4>Datos enviados, nos pondremos en contacto con usted muy pronto.</h4><br>
+        <h2>Mientras puede ver nuestro catálogo de productos en nuestro sitio web:</h2><br>
+        <a href="http://estralsolutions.com"><button class="btn btn-lg btn-warning">Ir al sitio</button></a>
+      </div>
+    </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="img/man-box.png" class="img-responsive" style="width: 100%;">
+        
+      </div>
+  </div>
+</div>
+<footer class="footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="d-inline-block text-center col-lg-12">
+              <h4 class="text-white text-center">Siganos en Facebook</h4>
+              <a href="https://www.facebook.com/EstralSolutionsMX/?ref=br_rs"><i class="fa fa-2x fa-facebook mb-3 sr-icons" style="padding: 2%; color: white !important;"></i></a>
+              <small><p class="text-white">Consulta nuestro <a href="avisodeprivacidad.pdf" style="color: white">Aviso de Privacidad</p></a></small>
+            </div>
+            <div class="d-inline-block">
+              
+            </div>
+          </div>
+        </div>
+      </footer>
 <?php
  
 }
