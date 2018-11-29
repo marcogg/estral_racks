@@ -35,10 +35,10 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo_estral.png" width="180"></a>
-        <div class="col-lg-3 offset-lg-3 d-inline-block">
+        <div class="col-lg-6 offset-lg-2 d-inline-block">
         	<div class="row">
         <i class="fa fa-phone fa-2x mb-3 sr-contact phone-header d-inline-block" style="vertical-align: middle;"></i>
-        <h5 style="margin: 5%;"><a href="tel:+52 (81) 8105-1000">+52 (81) 8105-1000</a></h5>
+        <h5 style="margin: 5%;">Cotización inmediata <a href="tel:(81) 8105-1000">(81) 8105-1000</a></h5>
         </div>
         </div>
         <!--<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,10 +82,10 @@
             <h2 class="section-heading text-white">Estantería de operación manual para cargas de bajo y mediano peso</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4"> 
-               Con características similares a los Sistemas Selectivos, la sencillez de ensamble y alta adaptabilidad de éste puede ser complementado con una serie de accesorios como son los diferentes modelos de panel para el almacenamiento de diversos tamaños de mercancías, adaptadores de sujeción para elementos cilíndricos, parrillas metálicas, etc.<br />
+               Con características similares a los <strong>Sistemas Selectivos</strong>, la <strong>sencillez</strong> de ensamble y <strong>alta adaptabilidad</strong> de éste puede ser complementado con una serie de accesorios como son los diferentes modelos de panel para el <strong>almacenamiento de diversos tamaños de mercancías</strong>, adaptadores de sujeción para elementos cilíndricos, parrillas metálicas, etc.<br />
                 <br>
                <br>
-               <a href="http://estralsolutions.com"><button class="btn btn-lg btn-warning">CONÓCENOS</button></a>
+               <a href="#contacto"><button class="btn btn-lg btn-warning">CONTÁCTANOS</button></a>
               <!--<a class="btn btn-light btn-xl js-scroll-trigger" href="http://quality-360g.easybroker.com/" target="_blank">Ver Oportunidades</a>-->
             </div>
           </div>
@@ -148,9 +148,87 @@
         <div class="container text-center">
           <h1 class="mb-4">CONOCE NUESTROS RACKS INDUSTRIALES</h1>
           <h3 class="mb-5">Contamos con cobertura en todo México</h3>
-          <a href="catalogo.pdf"><button class="btn btn-lg btn-warning">Descargar catálogo</button></a>
+          <button type="button" class="btn btn-lg btn-warning" data-toggle="modal" data-target="#exampleModalLong">
+  Descargar catálogo
+</button>
         </div>
       </div>
+      <!--MODAL INCIO-->
+
+      <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Descarga catálogo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      	<h4 class="text-center
+      	">Déjenos sus datos y descargue el catálogo completo</h4>
+         <form name="contactform" method="post" action="send_form_email.php" class="mt-4">
+                <table width="450px">
+                  <tr>
+                    <td valign="top">
+                      <label for="first_name">Nombre*</label>
+                    </td>
+                    <td valign="top">
+                      <input  type="text" name="first_name" maxlength="50" size="20">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td valign="top"">
+                      <label for="last_name">Apellido*</label>
+                    </td>
+                    <td valign="top">
+                      <input  type="text" name="last_name" maxlength="50" size="20">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td valign="top">
+                      <label for="email">Email*</label>
+                    </td>
+                    <td valign="top">
+                      <input  type="text" name="email" maxlength="80" size="20">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td valign="top">
+                      <label for="telephone">Teléfono</label>
+                    </td>
+                    <td valign="top">
+                      <input  type="text" name="telephone" maxlength="30" size="20">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td valign="top">
+                      <label for="comments">Comentarios *</label>
+                    </td>
+                    <td valign="top">
+                      <textarea  name="comments" maxlength="1000" cols="20" rows="6"></textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="text-align:center">
+                      <input type="submit" value="Enviar">
+                    </td>
+                  </tr>
+                </table>
+                <div class="g-recaptcha" data-sitekey="6LdH7XEUAAAAAP4xDZ8ySFl3bO1RLloCfSwIrBvx"></div>
+              </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!--FIN MODAL-->
       <section id="problemas">
         <div class="container">
           <div class="row">
@@ -165,26 +243,30 @@
             <div class="col-lg-6 col-md-6 text-left">
               <div class="service-box mt-5 mx-auto">
               	<h2 style="font-size: 3em;">Si tienes estos problemas</h2>
-               <ul>
-               		<li>Complicaciones para ordenar el inventario</li>
-					<li>Inconvenientes para clasificar los productos</li>
-					<li>Necesitas más espacio en tu almacén</li>
-					<li>No quieres rentar una bodega más grande</li>
+               
+               		<img src="img/cancel.png" class="img-fluid" width="15"> Complicaciones para ordenar el inventario
+               		<br>
+					<img src="img/cancel.png" class="img-fluid" width="15"> Inconvenientes para clasificar los productos
+					<br>
+					<img src="img/cancel.png" class="img-fluid" width="15"> Necesitas más espacio en tu almacén
+					<br>
+					<img src="img/cancel.png" class="img-fluid" width="15"> No quieres rentar una bodega más grande
+					<br>
 
-               </ul>
-               <div class="row">
-                <h3>Nosotros tenemos la solución</h3>
+               
+               <div class="row mt-4">
+                <h3 style="color: #0dba63;"><b>Nosotros tenemos la solución</b></h3>
                <div class="col-lg-4 col-md-4">
                		<img src="img/support.png"  width="250" class="img-responsive" style="width: 100%; padding: 10%;">
-               	<p class="text-center text-uppercase">El mejor servicio</p>
+               	<p class="text-center text-uppercase" style="color: #0dba63;">El mejor servicio</p>
                </div>
                <div class="col-lg-4 col-md-4">
                		<img src="img/coin.png"  width="250" class="img-responsive" style="width: 100%; padding: 10%;">
-               	<p class="text-center text-uppercase">Precios competitivos</p>
+               	<p class="text-center text-uppercase" style="color: #0dba63;">Precios competitivos</p>
                </div>
                <div class="col-lg-4 col-md-4">
                		<img src="img/quality.png"  width="250" class="img-responsive" style="width: 100%; padding: 10%;">
-               	<p class="text-center text-uppercase">Increíble calidad</p>
+               	<p class="text-center text-uppercase" style="color: #0dba63;">Increíble calidad</p>
                </div>
            	</div>
             </div>
@@ -197,7 +279,7 @@
           </div>
         </div>
       </section>
-      <section id="contact">
+      <section id="contacto">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 mx-auto text-center d-inline">
@@ -206,7 +288,7 @@
               <div class="row">
             <div class="col-lg-4 ml-auto text-center">
               <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-              <p><a href="tel:+52 (81) 8105-1000">+52 (81) 8105-1000</a> /<br> <a href="tel:+52 (81) 8105-0308">+52 (81) 8105-0308</a></p>
+              <p><a href="tel:+52 (81) 8105-1000">(81) 8105-1000</a> /<br> <a href="tel:+52 (81) 8105-0308">(81) 8105-0308</a></p>
             </div>
             <div class="col-lg-4 mr-auto text-center">
               <i class="fa fa-envelope-o fa-3x mb-3 sr-contact text-center"></i>
@@ -216,7 +298,7 @@
             </div>
           </div>
             </div>
-            <div class="col-lg-6 padding-container d-inline">
+            <div class="col-lg-6 padding-container d-inline" style="margin-bottom: -40px;">
               <form name="contactform" method="post" action="send_form_email.php">
                 <table width="450px">
                   <tr>
@@ -270,7 +352,7 @@
             </div>
           </div>
         </div>
-        <section>
+        <section style="padding-top: 0 !important;">
               <div class="bg-orange text-white propiedades">
         <div class="container text-center">
           <h1 class="mb-4">Ubicacion</h1>
@@ -287,8 +369,12 @@
           <div class="row">
             <div class="d-inline-block text-center col-lg-12">
               <h4 class="text-white text-center">Siganos en Facebook</h4>
-              <a href="https://www.facebook.com/EstralSolutionsMX/?ref=br_rs"><i class="fa fa-2x fa-facebook mb-3 sr-icons" style="padding: 2%; color: white !important;"></i></a>
-              <small><p class="text-white">Consulta nuestro <a href="avisodeprivacidad.pdf" style="color: white">Aviso de Privacidad</p></a></small>
+              <a href="https://www.facebook.com/EstralSolutionsMX/?ref=br_rs" target="_blank"><i class="fa fa-2x fa-facebook mb-3 sr-icons" style="padding: 2%; color: white !important;"></i></a>
+              <br>
+			<!--boton pagina oficial-->
+              <a class="btn btn-primary btn-xl js-scroll-trigger btn-lg" href="http://estralsolutions.com">Conozca nuestra empresa</a>
+              <br>
+              <small><p class="text-white mt-4">Consulta nuestro <a href="avisodeprivacidad.pdf" style="color: white">Aviso de Privacidad</p></a></small>
             </div>
             <div class="d-inline-block">
               
