@@ -124,8 +124,15 @@ $headers = 'From: '.$email_from."\r\n".
         <img src="img/logo_estral.png" width="200">
         <br>
         <br>
-        <h4>Datos enviados, nos pondremos en contacto con usted muy pronto.</h4><br>
-        <h2>Mientras puede ver nuestro catálogo de productos en nuestro sitio web:</h2><br>
+        <h4>Datos enviados.</h4>
+        <br>
+        <h2>Vea la variedad de productos que tenemos para usted:</h2><br>
+        <a href="catalogo.pdf"><button class="btn btn-lg btn-warning">Descargar catálogo</button></a>
+        <br>
+        <br>
+        <br>
+        <h4>Conozca nuestra empresa</h4>
+        <br>
         <a href="http://estralsolutions.com"><button class="btn btn-lg btn-warning">Ir al sitio</button></a>
       </div>
     </div>
